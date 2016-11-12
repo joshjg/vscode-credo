@@ -1,0 +1,21 @@
+{
+  "name": "vscode-credo-server",
+  "description": "Language server for Elixir Credo linter",
+  "version": "0.0.1",
+  "author": "Joshua Goldman",
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "sb-exec": "^3.1.0",
+    "vscode-languageserver": "^2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.9"
+  },
+  "scripts": {
+    "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
+    "watch": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc --watch -p ."
+  }
+}
