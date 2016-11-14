@@ -1,7 +1,7 @@
 {
   "name": "vscode-credo-server",
   "description": "Language server for Elixir Credo linter",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "author": "Joshua Goldman",
   "license": "MIT",
   "engines": {

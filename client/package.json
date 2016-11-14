@@ -3,7 +3,7 @@
 	"description": "Integrates Credo for Elixir into VS Code",
 	"author": "Joshua Goldman",
 	"license": "MIT",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"publisher": "joshjg",
 	"repository": {
 		"type": "git",
