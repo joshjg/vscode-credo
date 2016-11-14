@@ -67,7 +67,7 @@ function parseOutput(output) {
   }
 	return output.stdout.split('\n').map(error => {
 		let matches = error.match(/^.*?:(\d+):?(\d+)?:\s(.*)/);
-		if (!matches[1]) return null;
+		if (!matches || !matches[1]) return null;
 		let line = parseInt(matches[1]) - 1;
 		let col = parseInt(matches[2]) - 1;
 		return {
