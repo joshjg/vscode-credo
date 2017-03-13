@@ -9,10 +9,11 @@
   },
   "dependencies": {
     "sb-exec": "^3.1.0",
-    "vscode-languageserver": "^2.2.0"
+    "vscode-languageserver": "^3.1.0"
   },
   "devDependencies": {
-    "typescript": "^1.8.9"
+    "@types/node": "^7.0.8",
+    "typescript": "^2.2.1"
   },
   "scripts": {
     "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
