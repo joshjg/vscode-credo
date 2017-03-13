@@ -3,3 +3,4 @@ server
 node_modules
 test
 *.vsix
+npm-debug.log
